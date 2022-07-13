@@ -28,33 +28,7 @@
       * {
   box-sizing: border-box;
 }
-div {
-  text-align:center;
-}
-.header {
-  border:2px solid red;
-  width:100%;
-  height:500px;
-}
-.side {
-  border:2px solid green;
-  width:25%;
-  float:left;
-  margin:10px 0 10px 5px;
-  height:250px;
-}
-.content {
-  border:2px solid blue;
-  width:75%;
-  margin:10px 0 10px 235px;
-  min-height:500px;
-  _height:500px
-}
-.footer {
-  border:2px solid red;
-  width:750px;
-  height:30px;
-}
+
 .column {
   float: left;
   width: 33.33%;
@@ -80,7 +54,6 @@ div {
 </head>
 
 <body class="p1">
-<div class="header">
 <section>
   <center>
     <header>
@@ -88,17 +61,12 @@ div {
         Fudgey Chocolate Brownies
       </h1>
     </header>
-    <h3>
+    <h3 class="p1">
       This has been my family's favourite Brownie recipe for years! I thought I would share it here since I had the chance.
     </h3>
     <h4>
-      <p >
+      <p class="p1">
         ps. Even though it has 22 million views, it can still use another ;)
-      </p>
-    </h4>
-    <h4>
-      <p>
-        prep time: 15 min | cook time: 30 min | total time: 45 min
       </p>
     </h4>
   </center>
@@ -131,97 +99,44 @@ div {
     </div>
   </div>
 </section>
-</div>
 
 
 
 
-<div class="side">
-  <section>
-    <header>
-      <h4>
-        Here are the Ingredients:
-      </h4>
-    </header>
+<section>
+    <header><h4>Here are the Ingredients:</h4></header>
     
-    <form action="/action_page.php">
-      <input type="checkbox">
-      <label> Semi-sweet dark chocolate 200 grams</label><br>
-      <input type="checkbox">
-      <label> Butter 1/2 cup (115 grams)</label><br>
-      <input type="checkbox">
-      <label> Granulated sugar 1 cup</label><br>
-      <input type="checkbox" >
-      <label> Brown sugar 1/2 cup</label><br>
-      <input type="checkbox">
-      <label> Eggs 3 medium size</label><br>
-      <input type="checkbox">
-      <label> Salt 1/4 tsp</label><br>
-      <input type="checkbox">
-      <label> Vanilla essence 1 tsp</label><br>
-      <input type="checkbox">
-      <label> All-purpose flour 1/2 cup</label><br>
-      <input type="checkbox">
-      <label> Cocoa powder 1/4 cup</label><br>
-    </form>
-  </section>
-</div>
-
-<div class="content">
-  <section>
-    <article>
-      <header>
-        <center>
-          <h3>
-            Instructions for making these delecious brownies:
-          </h3>
-          <h4>
-            *make sure to check off what you have already finished to keep track.
-          </h4>
-
-
-          <input type="checkbox" >
-          <label>1. Pre-heat your oven to 350°F or 180°C</label><br>
-           <input type="checkbox" >
-          <label>2. I have a car</label><br>
-           <input type="checkbox" >
-          <label>3. I have a boat</label><br>
-          <input type="checkbox" >
-          <label>4. I have a bike</label><br>
-           <input type="checkbox" >
-          <label>5. I have a car</label><br>
-           <input type="checkbox" >
-          <label>6. I have a boat</label><br>
-          <input type="checkbox" >
-          <label>7. I have a bike</label><br>
-           <input type="checkbox" >
-          <label>8. I have a car</label><br>
-           <input type="checkbox" >
-          <label>9. I have a boat</label><br>
-        </center>
-      </header>
-    </article>
-  </section>
-</div>
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Semi-sweet dark chocolate 200 grams</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Butter 1/2 cup (115 grams)</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Granulated sugar 1 cup</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle4"> Brown sugar 1/2 cup</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle5"> Eggs 3 medium size</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle6"> Salt 1/4 tsp</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle7"> Vanilla essence 1 tsp</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle8"> All-purpose flour 1/2 cup</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle9"> Cocoa powder 1/4 cup</label><br>
+  </form>
+</section>
 
 </body>
 
-<div class="footer">
-  <footer>
-    <blockquote cite="https://www.keepinspiring.me/quotes-about-books-and-reading/">
+<footer>
+  <blockquote cite="https://www.keepinspiring.me/quotes-about-books-and-reading/">
     <!-- Date Accessed 20220706-->
-    </blockquote>
-    <strong> 
-      "That is the thing about books. They let you travel without moving your feet." - 
-    </strong>
-    <em>
-      <a href="https://www.keepinspiring.me/quotes-about-books-and-reading/" target="_blank">
-        Jhumpa Lahiri
-      </a>
-    </em>
-    <p>
-      &copy Ons Ben Hariz, powered by onsbenhariz in Github
-    </p>
-  </footer>
-</div>
+  </blockquote>
+ <strong> "That is the thing about books. They let you travel without moving your feet." - </strong>
+<em><a href="https://www.keepinspiring.me/quotes-about-books-and-reading/" target="_blank">Jhumpa Lahiri</a></em>
+<p>&copy Ons Ben Hariz, powered by onsbenhariz in Github</p>
+</footer>
+
 </html>
