@@ -104,3 +104,32 @@ Information Ideas &amp; Rubric
 - [ ] How are you academic?
   - [ ] Subjects you have high grades in; subjects you enjoy "putting in extra effort"
   - [ ] Subjects you find it 'natural' to remember "everything" recognize patterns others cannot see yet, or are able to use developed communication skills to share ideas
+
+
+  .header {
+  border:2px solid red;
+  width:100%;
+  height:500px;
+}
+.side {
+  border:2px solid green;
+  width:25%;
+  float:left;
+  margin:10px 0 10px 5px;
+  height:250px;
+  
+}
+.content {
+  border:2px solid blue;
+  width:70%;
+  float:right;
+  margin:10px 0 10px 235px;
+  min-height:500px;
+  _height:500px
+}
+.footer {
+  border:2px solid red;
+  float:center;
+  width:750px;
+  height:100px;
+}
