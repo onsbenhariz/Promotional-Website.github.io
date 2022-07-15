@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Ons Ben Hariz">
     <meta name="description" content="Brownies Recipe">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Brownie">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
 
@@ -22,60 +22,73 @@
     <!-- Already specified in the charset above-->
 
     <title>Brownie Recipe</title>
-
+    <link rel="icon" type="image/x-icon" href="/Images/browniefavico.png">
     <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your feature to execute scripts is turned off</noscript>
     <style>
       * {
-  box-sizing: border-box;
-}
-div {
-  text-align:center;
-}
-.header {
-  border:2px solid red;
-  width:100%;
-  height:500px;
-}
-.side {
-  border:2px solid green;
-  width:25%;
-  float:left;
-  margin:10px 0 10px 5px;
-  height:250px;
-}
-.content {
-  border:2px solid blue;
-  width:75%;
-  margin:10px 0 10px 235px;
-  min-height:500px;
-  _height:500px
-}
-.footer {
-  border:2px solid red;
-  width:750px;
-  height:30px;
-}
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-    .p1 {
-  font-family: Helvetica, sans-serif;
-}
-    body {
-    background-color: #fcf3db;
+        box-sizing: border-box;
       }
-    p {
-  font-size: 14px;
-}
+      
+      div {
+        text-align:center;
+      }
+      
+      .header {
+        height: 500px;
+      }
+      
+      .side {
+        width: 200px;
+        position: absolute;
+        top: 520px;
+        min-height: 300px;
+      }
+
+      .content {
+        margin-left: 200px;
+        min-height: 300px;
+        color: rgb(150, 20, 20);
+      }
+      
+      .footer {
+        background-color: rgb(155, 155, 25);
+        margin-left: 0px;
+        width:100%;
+        height:100px;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .p1 {
+        font-family:'Courier New', monospace;
+      }
+      
+      body {
+        background-color: #fcf3db;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h4 {
+        font-size: 18px;
+      }
+
     </style>
 </head>
 
@@ -98,7 +111,7 @@ div {
     </h4>
     <h4>
       <p>
-        prep time: 15 min | cook time: 30 min | total time: 45 min
+        prep time: 15 min | cook time: 30 min | total time: 45 min | servings: 9
       </p>
     </h4>
   </center>
@@ -113,7 +126,7 @@ div {
         <!-- Date accessed 20200712 -->
         <!-- Width: 3000, Height: 2000-->
       </blockquote>
-      <img src="https://capital-brands-llc.imgix.net/recipe-r2502-black-bean-brownies-fullsize-080555.jpg" alt="Images/chocolatebowlbrownies.jpg" style="width:100%">
+      <img src="https://capital-brands-llc.imgix.net/recipe-r2502-black-bean-brownies-fullsize-080555.jpg" alt="Images/chocolatebowlbrownies.jpg" style= "width:100%">
     </div>
     <div class="column">
       <blockquote cite="https://www.biggerbolderbaking.com/">
@@ -135,7 +148,8 @@ div {
 
 
 
-
+<div class="row2">
+  <div class="column2">
 <div class="side">
   <section>
     <header>
@@ -152,13 +166,13 @@ div {
       <input type="checkbox">
       <label> Granulated sugar 1 cup</label><br>
       <input type="checkbox" >
-      <label> Brown sugar 1/2 cup</label><br>
+      <label> Brown sugar 1/2 cup </label><br>
       <input type="checkbox">
       <label> Eggs 3 medium size</label><br>
       <input type="checkbox">
       <label> Salt 1/4 tsp</label><br>
       <input type="checkbox">
-      <label> Vanilla essence 1 tsp</label><br>
+      <label> Vanilla extract 1 tsp</label><br>
       <input type="checkbox">
       <label> All-purpose flour 1/2 cup</label><br>
       <input type="checkbox">
@@ -166,12 +180,14 @@ div {
     </form>
   </section>
 </div>
+</div>
 
+<div class="column3">
 <div class="content">
   <section>
     <article>
       <header>
-        <center>
+        
           <h3>
             Instructions for making these delecious brownies:
           </h3>
@@ -182,28 +198,44 @@ div {
 
           <input type="checkbox" >
           <label>1. Pre-heat your oven to 350°F or 180°C</label><br>
-           <input type="checkbox" >
-          <label>2. I have a car</label><br>
-           <input type="checkbox" >
-          <label>3. I have a boat</label><br>
           <input type="checkbox" >
-          <label>4. I have a bike</label><br>
-           <input type="checkbox" >
-          <label>5. I have a car</label><br>
-           <input type="checkbox" >
-          <label>6. I have a boat</label><br>
+          <label>2. Butter a 7x7-inch dark metal pan with semi-melted butter and either line with parchment paper or flour the whole pan making sure to tap out any excess flour so your brownies wont stick.</label><br>
           <input type="checkbox" >
-          <label>7. I have a bike</label><br>
+          <label>3. Boil some water in a sauce pan and place a heat-resistant bowl over the water making sure it doesnt touch the water.</label><br>
+          <input type="checkbox" >
+          <label>4. Cut up your chocolate into small peices or if your using chocolate chips you can skip this step.</label><br>
+          <input type="checkbox" >
+          <label>5. Place your choclate into the bowl and add the measured butter and make sure to stir until completely melted.</label><br>
            <input type="checkbox" >
-          <label>8. I have a car</label><br>
-           <input type="checkbox" >
-          <label>9. I have a boat</label><br>
-        </center>
+          <label>6. Take the bowl off the heat to cool.</label><br>
+          <input type="checkbox" >
+          <label>7. While your chocolate is cooling down, in a differnt bowl combine both your sugars (granulated and brown).</label><br>
+          <input type="checkbox" >
+          <label>8. Add eggs individually to the mix of sugars, making sure to mix thoroughly before adding the next egg.</label><br>
+          <input type="checkbox" >
+          <label>9. Make sure your mixture looks creamy, if not, keep mixing until it does (the batter will be thick).</label><br>
+          <input type="checkbox" >
+          <label>10. When you have reached a creamy consistency, add the measured salt, vanilla extract, and the cooled chocolate-butter mix and stir well. </label><br>
+          <input type="checkbox" >
+          <label>11. Sift the half cup of all purpose flour and quarter cup of cocoa powder together into the bowl. </label><br>
+          <input type="checkbox" >
+          <label>12. Gently fold everthing together using a spatula.</label><br>
+          <input type="checkbox" >
+          <label>13. Pour the batter into your baking pan, tap a couple times to even out the batter and get rid of any air-bubbles.</label><br>
+          <input type="checkbox" >
+          <label>14. Bake for around 30 minutes in pre-heated oven *check with a toothpick how cooked it is, I usually like mine fudgey ;).  </label><br>
+          <input type="checkbox" >
+          <label>15. When out of the oven, make sure to let cool for 15 minutes before taking it out of the pan. </label><br>
+          <input type="checkbox" >
+          <label>16. Slice into 9 even squares and bon appétit :-)</label><br>
+        
       </header>
     </article>
+    <iframe style="border: 3px solid rgb(126, 59, 59);" width="560" height="315" src="https://www.youtube.com/embed/Z1OLG7F3HD4" &autoplay=1 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </section>
 </div>
-
+</div>
+</div>
 </body>
 
 <div class="footer">
