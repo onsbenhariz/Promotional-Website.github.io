@@ -33,60 +33,69 @@
       float: right;
       width: 20%;
       padding: 10px;
+      min-height: 400px;
       height: 400px; 
     }
     .column3 {
       float: right;
       width: 60%;
       padding: 10px;
+      min-height: 400px;
       height: 400px; 
     }
     .column2 {
       float: right;
       width: 20%;
       padding: 10px;
+      min-height: 400px;
       height: 400px;
     }
     .header {
-        background-color: #DDF;
+        background-color: #c65032;
         float: middle;
         height: 100px;
-        border: solid black;
+        border: solid #f6e9d7;
+        color: #5f2c3e;
       }
-    .footer{
-      background-color: #DDF;
-      float: middle;
-      height: 50px;
-      border: solid black;
+      .footer {
+        background-color: #f9e45b;
+        color: #000000;
+        margin-left: 0px;
+        width:100%;
+        height:100px;
     }
     .box {
-      background-color: rgb(106, 209, 209);
+      background-color: #f6e9d7;
       width: 200px;
-      border: 15px solid rgb(0, 0, 0);
+      border: 15px solid #c65032;
       padding: 10px;
       margin: 20px;
     }
     .box2 {
-      background-color: rgb(159, 141, 224);
+      background-color: #f6e9d7;
       width: 200px;
-      border: 15px solid rgb(0, 0, 0);
+      border: 15px solid #c65032;
       padding: 10px;
       margin: 20px;
     }
     body {
-background-color: #DBF9FC;
-}
+      background-color: #d1adcc;
+    }
+
+    .p1{
+      font-family: 'Georgia', serif;
+    }
     </style>
 
 </head>
 
-<body>
+<body class="p1">
 
   <div class="header">
     <header>
       <h1>
         <center>
-          A Glimpse of Grannie's Cookbook
+          A Glimpse Into Grannie's Cookbook
         </center>
       </h1>
     </header>
@@ -95,7 +104,7 @@ background-color: #DBF9FC;
 
   
 <div>
-  <div class="column1" style="background-color:rgb(80, 113, 184) ;">
+  <div class="column1" style="background-color:#c2d2bd ;">
     <section>
       <header>
         <div class="box">
@@ -128,7 +137,7 @@ background-color: #DBF9FC;
 
 
 
-  <div class="column3" style="background-color:rgb(127, 206, 153);border: black; border-width: 1.5px;">
+  <div class="column3" style="background-color:#5f2c3e;border: black; border-width: 1.5px;">
     <center>
       <div class="box2">
           <a href="ChildPages/AuthorPage.html">
@@ -144,7 +153,7 @@ background-color: #DBF9FC;
 
 
 
-  <div class="column2" style="background-color:rgb(80, 113, 184); border: black; border-width: 1.5px;">
+  <div class="column2" style="background-color:#c2d2bd; border: black; border-width: 1.5px;">
     <section>
       <header>
         <div class="box">
@@ -179,9 +188,8 @@ background-color: #DBF9FC;
 
 </body>
 
-<div class="footer">
 <footer>
-  
+  <div class="footer">
     <blockquote cite="https://www.keepinspiring.me/quotes-about-books-and-reading/">
       <!-- Date Accessed 20220706-->
     </blockquote>
@@ -195,9 +203,13 @@ background-color: #DBF9FC;
     </em>
     <p>
       Email: o.benhariz@share.epsb.ca </p>
-     <p> &copy Ons Ben Hariz, powered by onsbenhariz in Github
-    </p>
- 
+      <p>
+        &copy Ons Ben Hariz, powered by 
+        <em>
+          <a href="https://github.com/onsbenhariz" target="_blank">
+            <span style="background-color: #fff0f0">onsbenhariz/span>
+          </a>
+        </em> in Github
+      </p>
+  </div>
 </footer>
-</div>
-</html>
